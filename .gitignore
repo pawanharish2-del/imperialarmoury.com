@@ -1,0 +1,10 @@
+# Dependencies
+node_modules/
+
+# Scratch & Temporary Audit Files
+scratch/
+
+# OS and System Files
+.DS_Store
+Thumbs.db
+*.log

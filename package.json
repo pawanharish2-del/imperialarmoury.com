@@ -1,0 +1,17 @@
+{
+  "name": "imperial-armoury",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node scripts/setup-routes.js",
+    "setup-routes": "node scripts/setup-routes.js",
+    "generate-favicons": "node scripts/generate-favicons.js",
+    "optimize-images": "node optimize-images.mjs"
+  },
+  "dependencies": {
+    "jpeg-js": "^0.4.4",
+    "pngjs": "^7.0.0"
+  },
+  "devDependencies": {
+    "sharp": "^0.33.5"
+  }
+}

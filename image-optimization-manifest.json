@@ -1,0 +1,990 @@
+{
+  "timestamp": "2026-09-11T05:56:06.172Z",
+  "totalImages": 109,
+  "totalOriginalBytes": 277714211,
+  "totalOptimizedBytes": 6529882,
+  "savingsPercent": "97.6",
+  "files": [
+    {
+      "original": "Home-03.png",
+      "webp": "Home-03.webp",
+      "originalSize": 29014433,
+      "optimizedSize": 94894,
+      "savingsPercent": 99.7,
+      "originalDimensions": "14218x4416",
+      "resized": true
+    },
+    {
+      "original": "About-us-banner-wide.png",
+      "webp": "About-us-banner-wide.webp",
+      "originalSize": 9764686,
+      "optimizedSize": 88200,
+      "savingsPercent": 99.1,
+      "originalDimensions": "4200x1536",
+      "resized": true
+    },
+    {
+      "original": "About-03.png",
+      "webp": "About-03.webp",
+      "originalSize": 9694254,
+      "optimizedSize": 79790,
+      "savingsPercent": 99.2,
+      "originalDimensions": "6235x1444",
+      "resized": true
+    },
+    {
+      "original": "About-04.png",
+      "webp": "About-04.webp",
+      "originalSize": 9067099,
+      "optimizedSize": 69302,
+      "savingsPercent": 99.2,
+      "originalDimensions": "6240x1445",
+      "resized": true
+    },
+    {
+      "original": "DSR 1-06.png",
+      "webp": "DSR 1-06.webp",
+      "originalSize": 8737057,
+      "optimizedSize": 80464,
+      "savingsPercent": 99.1,
+      "originalDimensions": "4697x1087",
+      "resized": true
+    },
+    {
+      "original": "About-02.png",
+      "webp": "About-02.webp",
+      "originalSize": 8652702,
+      "optimizedSize": 207932,
+      "savingsPercent": 97.6,
+      "originalDimensions": "3165x3165",
+      "resized": true
+    },
+    {
+      "original": "About-01.png",
+      "webp": "About-01.webp",
+      "originalSize": 7905426,
+      "optimizedSize": 68158,
+      "savingsPercent": 99.1,
+      "originalDimensions": "8003x1853",
+      "resized": true
+    },
+    {
+      "original": "DSR 1-03.png",
+      "webp": "DSR 1-03.webp",
+      "originalSize": 7754019,
+      "optimizedSize": 43654,
+      "savingsPercent": 99.4,
+      "originalDimensions": "6233x1442",
+      "resized": true
+    },
+    {
+      "original": "Home-10.png",
+      "webp": "Home-10.webp",
+      "originalSize": 7620200,
+      "optimizedSize": 111336,
+      "savingsPercent": 98.5,
+      "originalDimensions": "18250x6075",
+      "resized": true
+    },
+    {
+      "original": "Home-07.png",
+      "webp": "Home-07.webp",
+      "originalSize": 7443725,
+      "optimizedSize": 81294,
+      "savingsPercent": 98.9,
+      "originalDimensions": "6892x4015",
+      "resized": true
+    },
+    {
+      "original": "Home-09.png",
+      "webp": "Home-09.webp",
+      "originalSize": 7441686,
+      "optimizedSize": 80814,
+      "savingsPercent": 98.9,
+      "originalDimensions": "6890x4017",
+      "resized": true
+    },
+    {
+      "original": "Home-15.png",
+      "webp": "Home-15.webp",
+      "originalSize": 7178768,
+      "optimizedSize": 43236,
+      "savingsPercent": 99.4,
+      "originalDimensions": "11385x2049",
+      "resized": true
+    },
+    {
+      "original": "Home-04.png",
+      "webp": "Home-04.webp",
+      "originalSize": 6901856,
+      "optimizedSize": 66458,
+      "savingsPercent": 99,
+      "originalDimensions": "5870x10433",
+      "resized": true
+    },
+    {
+      "original": "imperiallinkseries2.png",
+      "webp": "imperiallinkseries2.webp",
+      "originalSize": 6606218,
+      "optimizedSize": 106838,
+      "savingsPercent": 98.4,
+      "originalDimensions": "3483x1960",
+      "resized": true
+    },
+    {
+      "original": "DSR 1-04.png",
+      "webp": "DSR 1-04.webp",
+      "originalSize": 6537969,
+      "optimizedSize": 67224,
+      "savingsPercent": 99,
+      "originalDimensions": "3149x1517",
+      "resized": true
+    },
+    {
+      "original": "LINK-SERIES-section - 1.png",
+      "webp": "LINK-SERIES-section - 1.webp",
+      "originalSize": 6156333,
+      "optimizedSize": 230830,
+      "savingsPercent": 96.3,
+      "originalDimensions": "2752x1536",
+      "resized": true
+    },
+    {
+      "original": "About-05.png",
+      "webp": "About-05.webp",
+      "originalSize": 5834497,
+      "optimizedSize": 23730,
+      "savingsPercent": 99.6,
+      "originalDimensions": "6233x1443",
+      "resized": true
+    },
+    {
+      "original": "VIPER-02.png",
+      "webp": "VIPER-02.webp",
+      "originalSize": 5834497,
+      "optimizedSize": 23730,
+      "savingsPercent": 99.6,
+      "originalDimensions": "6233x1443",
+      "resized": true
+    },
+    {
+      "original": "Home-13.png",
+      "webp": "Home-13.webp",
+      "originalSize": 5886513,
+      "optimizedSize": 113918,
+      "savingsPercent": 98.1,
+      "originalDimensions": "6647x3741",
+      "resized": true
+    },
+    {
+      "original": "Home-16.png",
+      "webp": "Home-16.webp",
+      "originalSize": 5948998,
+      "optimizedSize": 211508,
+      "savingsPercent": 96.4,
+      "originalDimensions": "2752x1273",
+      "resized": true
+    },
+    {
+      "original": "Home-08.png",
+      "webp": "Home-08.webp",
+      "originalSize": 5547873,
+      "optimizedSize": 72210,
+      "savingsPercent": 98.7,
+      "originalDimensions": "6890x4017",
+      "resized": true
+    },
+    {
+      "original": "imperialgearpackimage.png",
+      "webp": "imperialgearpackimage.webp",
+      "originalSize": 5501327,
+      "optimizedSize": 69942,
+      "savingsPercent": 98.7,
+      "originalDimensions": "2550x1632",
+      "resized": true
+    },
+    {
+      "original": "assetsimages2.png",
+      "webp": "assetsimages2.webp",
+      "originalSize": 5372594,
+      "optimizedSize": 102358,
+      "savingsPercent": 98.1,
+      "originalDimensions": "2048x2048",
+      "resized": true
+    },
+    {
+      "original": "imperialimages122.png",
+      "webp": "imperialimages122.webp",
+      "originalSize": 5116892,
+      "optimizedSize": 58138,
+      "savingsPercent": 98.9,
+      "originalDimensions": "2752x1536",
+      "resized": true
+    },
+    {
+      "original": "Jodhpur Fort.png",
+      "webp": "Jodhpur Fort.webp",
+      "originalSize": 4808196,
+      "optimizedSize": 65410,
+      "savingsPercent": 98.6,
+      "originalDimensions": "4335x1080",
+      "resized": true
+    },
+    {
+      "original": "weapon-precision.png",
+      "webp": "weapon-precision.webp",
+      "originalSize": 4722273,
+      "optimizedSize": 57290,
+      "savingsPercent": 98.8,
+      "originalDimensions": "2752x1536",
+      "resized": true
+    },
+    {
+      "original": "weapon-ar15-white.png",
+      "webp": "weapon-ar15-white.webp",
+      "originalSize": 4149297,
+      "optimizedSize": 31172,
+      "savingsPercent": 99.2,
+      "originalDimensions": "2787x1568",
+      "resized": true
+    },
+    {
+      "original": "Home-05.png",
+      "webp": "Home-05.webp",
+      "originalSize": 4074597,
+      "optimizedSize": 131948,
+      "savingsPercent": 96.8,
+      "originalDimensions": "6890x4017",
+      "resized": true
+    },
+    {
+      "original": "Home-06.png",
+      "webp": "Home-06.webp",
+      "originalSize": 3937862,
+      "optimizedSize": 123676,
+      "savingsPercent": 96.9,
+      "originalDimensions": "6889x4017",
+      "resized": true
+    },
+    {
+      "original": "Home-02.png",
+      "webp": "Home-02.webp",
+      "originalSize": 3763215,
+      "optimizedSize": 156826,
+      "savingsPercent": 95.8,
+      "originalDimensions": "7028x3956",
+      "resized": true
+    },
+    {
+      "original": "H6-Rifle-Spotlight-Section.png",
+      "webp": "H6-Rifle-Spotlight-Section.webp",
+      "originalSize": 3690558,
+      "optimizedSize": 114060,
+      "savingsPercent": 96.9,
+      "originalDimensions": "2322x1307",
+      "resized": true
+    },
+    {
+      "original": "Home-01.png",
+      "webp": "Home-01.webp",
+      "originalSize": 3715827,
+      "optimizedSize": 144620,
+      "savingsPercent": 96.1,
+      "originalDimensions": "6989x3954",
+      "resized": true
+    },
+    {
+      "original": "DSR 1-05.png",
+      "webp": "DSR 1-05.webp",
+      "originalSize": 3240042,
+      "optimizedSize": 101274,
+      "savingsPercent": 96.9,
+      "originalDimensions": "1517x1517",
+      "resized": true
+    },
+    {
+      "original": "VIPER-01.png",
+      "webp": "VIPER-01.webp",
+      "originalSize": 2742273,
+      "optimizedSize": 75912,
+      "savingsPercent": 97.2,
+      "originalDimensions": "8002x2113",
+      "resized": true
+    },
+    {
+      "original": "VIPER-07.png",
+      "webp": "VIPER-07.webp",
+      "originalSize": 2719177,
+      "optimizedSize": 88976,
+      "savingsPercent": 96.7,
+      "originalDimensions": "2077x1169",
+      "resized": true
+    },
+    {
+      "original": "VIPER-09.png",
+      "webp": "VIPER-09.webp",
+      "originalSize": 2612436,
+      "optimizedSize": 90258,
+      "savingsPercent": 96.5,
+      "originalDimensions": "3756x2007",
+      "resized": true
+    },
+    {
+      "original": "VIPER-10.png",
+      "webp": "VIPER-10.webp",
+      "originalSize": 2748922,
+      "optimizedSize": 238594,
+      "savingsPercent": 91.3,
+      "originalDimensions": "2456x3189",
+      "resized": true
+    },
+    {
+      "original": "DSR 1-01.png",
+      "webp": "DSR 1-01.webp",
+      "originalSize": 2503373,
+      "optimizedSize": 56408,
+      "savingsPercent": 97.7,
+      "originalDimensions": "8036x2122",
+      "resized": true
+    },
+    {
+      "original": "AMMUNITION-03.png",
+      "webp": "AMMUNITION-03.webp",
+      "originalSize": 2473968,
+      "optimizedSize": 44516,
+      "savingsPercent": 98.2,
+      "originalDimensions": "6245x1650",
+      "resized": true
+    },
+    {
+      "original": "Home-11.png",
+      "webp": "Home-11.webp",
+      "originalSize": 2421412,
+      "optimizedSize": 95420,
+      "savingsPercent": 96.1,
+      "originalDimensions": "4632x3475",
+      "resized": true
+    },
+    {
+      "original": "AMMUNITION-01.png",
+      "webp": "AMMUNITION-01.webp",
+      "originalSize": 2382322,
+      "optimizedSize": 93516,
+      "savingsPercent": 96.1,
+      "originalDimensions": "8004x2114",
+      "resized": true
+    },
+    {
+      "original": "Home-12.png",
+      "webp": "Home-12.webp",
+      "originalSize": 2109075,
+      "optimizedSize": 58492,
+      "savingsPercent": 97.2,
+      "originalDimensions": "6544x3150",
+      "resized": true
+    },
+    {
+      "original": "AMMUNITION-04.png",
+      "webp": "AMMUNITION-04.webp",
+      "originalSize": 2078716,
+      "optimizedSize": 44482,
+      "savingsPercent": 97.9,
+      "originalDimensions": "6236x1647",
+      "resized": true
+    },
+    {
+      "original": "VIPER-08.png",
+      "webp": "VIPER-08.webp",
+      "originalSize": 2025390,
+      "optimizedSize": 115000,
+      "savingsPercent": 94.3,
+      "originalDimensions": "1667x1169",
+      "resized": true
+    },
+    {
+      "original": "Contact-01.png",
+      "webp": "Contact-01.webp",
+      "originalSize": 1873239,
+      "optimizedSize": 80178,
+      "savingsPercent": 95.7,
+      "originalDimensions": "8036x1845",
+      "resized": true
+    },
+    {
+      "original": "imperialstrenthimg.png",
+      "webp": "imperialstrenthimg.webp",
+      "originalSize": 1541751,
+      "optimizedSize": 76192,
+      "savingsPercent": 95.1,
+      "originalDimensions": "1536x672",
+      "resized": true
+    },
+    {
+      "original": "DSR 1-07.png",
+      "webp": "DSR 1-07.webp",
+      "originalSize": 1360388,
+      "optimizedSize": 25708,
+      "savingsPercent": 98.1,
+      "originalDimensions": "1505x2633",
+      "resized": true
+    },
+    {
+      "original": "IA-ammunition.png",
+      "webp": "IA-ammunition.webp",
+      "originalSize": 1400233,
+      "optimizedSize": 95750,
+      "savingsPercent": 93.2,
+      "originalDimensions": "1409x1080",
+      "resized": true
+    },
+    {
+      "original": "VIPER-06.png",
+      "webp": "VIPER-06.webp",
+      "originalSize": 1182004,
+      "optimizedSize": 70348,
+      "savingsPercent": 94,
+      "originalDimensions": "2471x2069",
+      "resized": true
+    },
+    {
+      "original": "DSR 1-02.png",
+      "webp": "DSR 1-02.webp",
+      "originalSize": 954172,
+      "optimizedSize": 31622,
+      "savingsPercent": 96.7,
+      "originalDimensions": "6404x1459",
+      "resized": true
+    },
+    {
+      "original": "AMMUNITION-02.png",
+      "webp": "AMMUNITION-02.webp",
+      "originalSize": 913150,
+      "optimizedSize": 66582,
+      "savingsPercent": 92.7,
+      "originalDimensions": "2915x3451",
+      "resized": true
+    },
+    {
+      "original": "rifles-left.png",
+      "webp": "rifles-left.webp",
+      "originalSize": 942228,
+      "optimizedSize": 120304,
+      "savingsPercent": 87.2,
+      "originalDimensions": "1024x1024",
+      "resized": true
+    },
+    {
+      "original": "dsr1-m3.png",
+      "webp": "dsr1-m3.webp",
+      "originalSize": 967834,
+      "optimizedSize": 200666,
+      "savingsPercent": 79.3,
+      "originalDimensions": "1376x768",
+      "resized": true
+    },
+    {
+      "original": "ammunition-hero-workbench.jpg",
+      "webp": "ammunition-hero-workbench.webp",
+      "originalSize": 778201,
+      "optimizedSize": 86928,
+      "savingsPercent": 88.8,
+      "originalDimensions": "1376x768",
+      "resized": true
+    },
+    {
+      "original": "viper-hero-banner.png",
+      "webp": "viper-hero-banner.webp",
+      "originalSize": 766955,
+      "optimizedSize": 90918,
+      "savingsPercent": 88.1,
+      "originalDimensions": "1024x1024",
+      "resized": false
+    },
+    {
+      "original": "ammunition-bullets.png",
+      "webp": "ammunition-bullets.webp",
+      "originalSize": 671203,
+      "optimizedSize": 43094,
+      "savingsPercent": 93.6,
+      "originalDimensions": "1024x1024",
+      "resized": true
+    },
+    {
+      "original": "followus-bg.jpg",
+      "webp": "followus-bg.webp",
+      "originalSize": 603970,
+      "optimizedSize": 85558,
+      "savingsPercent": 85.8,
+      "originalDimensions": "1376x768",
+      "resized": false
+    },
+    {
+      "original": "weapon-viper-clean-hd.png",
+      "webp": "weapon-viper-clean-hd.webp",
+      "originalSize": 557168,
+      "optimizedSize": 39988,
+      "savingsPercent": 92.8,
+      "originalDimensions": "845x620",
+      "resized": false
+    },
+    {
+      "original": "Modern_rifle.png",
+      "webp": "Modern_rifle.webp",
+      "originalSize": 515358,
+      "optimizedSize": 40262,
+      "savingsPercent": 92.2,
+      "originalDimensions": "1024x271",
+      "resized": false
+    },
+    {
+      "original": "workbench-rifle167.png",
+      "webp": "workbench-rifle167.webp",
+      "originalSize": 455149,
+      "optimizedSize": 37150,
+      "savingsPercent": 91.8,
+      "originalDimensions": "1024x1024",
+      "resized": false
+    },
+    {
+      "original": "weapon-pcc.png",
+      "webp": "weapon-pcc.webp",
+      "originalSize": 410522,
+      "optimizedSize": 27106,
+      "savingsPercent": 93.4,
+      "originalDimensions": "1024x1024",
+      "resized": false
+    },
+    {
+      "original": "product-handguard3.png",
+      "webp": "product-handguard3.webp",
+      "originalSize": 397215,
+      "optimizedSize": 24770,
+      "savingsPercent": 93.8,
+      "originalDimensions": "1024x1024",
+      "resized": false
+    },
+    {
+      "original": "weapon-ar15.png",
+      "webp": "weapon-ar15.webp",
+      "originalSize": 390765,
+      "optimizedSize": 20030,
+      "savingsPercent": 94.9,
+      "originalDimensions": "1024x1024",
+      "resized": false
+    },
+    {
+      "original": "mountain-footer.png",
+      "webp": "mountain-footer.webp",
+      "originalSize": 399075,
+      "optimizedSize": 30264,
+      "savingsPercent": 92.4,
+      "originalDimensions": "1024x1024",
+      "resized": true
+    },
+    {
+      "original": "imperialarmorycatalogimage.png",
+      "webp": "imperialarmorycatalogimage.webp",
+      "originalSize": 384901,
+      "optimizedSize": 19594,
+      "savingsPercent": 94.9,
+      "originalDimensions": "1920x1000",
+      "resized": true
+    },
+    {
+      "original": "weapon-ar10.png",
+      "webp": "weapon-ar10.webp",
+      "originalSize": 382379,
+      "optimizedSize": 27346,
+      "savingsPercent": 92.8,
+      "originalDimensions": "1024x1024",
+      "resized": false
+    },
+    {
+      "original": "h6rifleimg.png",
+      "webp": "h6rifleimg.webp",
+      "originalSize": 369873,
+      "optimizedSize": 19512,
+      "savingsPercent": 94.7,
+      "originalDimensions": "1630x198",
+      "resized": true
+    },
+    {
+      "original": "weapon-srb.png",
+      "webp": "weapon-srb.webp",
+      "originalSize": 361609,
+      "optimizedSize": 18688,
+      "savingsPercent": 94.8,
+      "originalDimensions": "1024x1024",
+      "resized": false
+    },
+    {
+      "original": "Home-14.png",
+      "webp": "Home-14.webp",
+      "originalSize": 309451,
+      "optimizedSize": 18384,
+      "savingsPercent": 94.1,
+      "originalDimensions": "6211x755",
+      "resized": true
+    },
+    {
+      "original": "imperialviber12.png",
+      "webp": "imperialviber12.webp",
+      "originalSize": 318824,
+      "optimizedSize": 35110,
+      "savingsPercent": 89,
+      "originalDimensions": "1024x1024",
+      "resized": false
+    },
+    {
+      "original": "weapon-viper-clean.png",
+      "webp": "weapon-viper-clean.webp",
+      "originalSize": 318824,
+      "optimizedSize": 35110,
+      "savingsPercent": 89,
+      "originalDimensions": "1024x1024",
+      "resized": false
+    },
+    {
+      "original": "headerlogo.png",
+      "webp": "headerlogo.webp",
+      "originalSize": 283645,
+      "optimizedSize": 24386,
+      "savingsPercent": 91.4,
+      "originalDimensions": "10904x1219",
+      "resized": true
+    },
+    {
+      "original": "weapon-viper-user.png",
+      "webp": "weapon-viper-user.webp",
+      "originalSize": 258209,
+      "optimizedSize": 17760,
+      "savingsPercent": 93.1,
+      "originalDimensions": "901x479",
+      "resized": false
+    },
+    {
+      "original": "weapon-viper.png",
+      "webp": "weapon-viper.webp",
+      "originalSize": 258209,
+      "optimizedSize": 17760,
+      "savingsPercent": 93.1,
+      "originalDimensions": "901x479",
+      "resized": false
+    },
+    {
+      "original": "footerlogo.png",
+      "webp": "footerlogo.webp",
+      "originalSize": 261484,
+      "optimizedSize": 21112,
+      "savingsPercent": 91.9,
+      "originalDimensions": "10904x1219",
+      "resized": true
+    },
+    {
+      "original": "Weapons-02.png",
+      "webp": "Weapons-02.webp",
+      "originalSize": 178269,
+      "optimizedSize": 18206,
+      "savingsPercent": 89.8,
+      "originalDimensions": "552x462",
+      "resized": true
+    },
+    {
+      "original": "Weapons-01.png",
+      "webp": "Weapons-01.webp",
+      "originalSize": 150558,
+      "optimizedSize": 9568,
+      "savingsPercent": 93.6,
+      "originalDimensions": "1310x292",
+      "resized": true
+    },
+    {
+      "original": "small_arms.png",
+      "webp": "small_arms.webp",
+      "originalSize": 209769,
+      "optimizedSize": 69426,
+      "savingsPercent": 66.9,
+      "originalDimensions": "1600x420",
+      "resized": true
+    },
+    {
+      "original": "vission.png",
+      "webp": "vission.webp",
+      "originalSize": 205147,
+      "optimizedSize": 76000,
+      "savingsPercent": 63,
+      "originalDimensions": "1477x344",
+      "resized": true
+    },
+    {
+      "original": "workbench-rifle2.png",
+      "webp": "workbench-rifle2.webp",
+      "originalSize": 145135,
+      "optimizedSize": 22950,
+      "savingsPercent": 84.2,
+      "originalDimensions": "728x342",
+      "resized": false
+    },
+    {
+      "original": "mission.png",
+      "webp": "mission.webp",
+      "originalSize": 185171,
+      "optimizedSize": 65544,
+      "savingsPercent": 64.6,
+      "originalDimensions": "1481x341",
+      "resized": true
+    },
+    {
+      "original": "firearms.png",
+      "webp": "firearms.webp",
+      "originalSize": 183656,
+      "optimizedSize": 88894,
+      "savingsPercent": 51.6,
+      "originalDimensions": "752x751",
+      "resized": false
+    },
+    {
+      "original": "source.png",
+      "webp": "source.webp",
+      "originalSize": 124520,
+      "optimizedSize": 38514,
+      "savingsPercent": 69.1,
+      "originalDimensions": "1478x343",
+      "resized": true
+    },
+    {
+      "original": "weapon-viper-ref.png",
+      "webp": "weapon-viper-ref.webp",
+      "originalSize": 88784,
+      "optimizedSize": 4368,
+      "savingsPercent": 95.1,
+      "originalDimensions": "1024x470",
+      "resized": false
+    },
+    {
+      "original": "dsr1-m.png",
+      "webp": "dsr1-m.webp",
+      "originalSize": 117001,
+      "optimizedSize": 39946,
+      "savingsPercent": 65.9,
+      "originalDimensions": "1328x308",
+      "resized": true
+    },
+    {
+      "original": "small_arms5.png",
+      "webp": "small_arms5.webp",
+      "originalSize": 160562,
+      "optimizedSize": 86044,
+      "savingsPercent": 46.4,
+      "originalDimensions": "583x756",
+      "resized": false
+    },
+    {
+      "original": "workbench-rifle1.png",
+      "webp": "workbench-rifle1.webp",
+      "originalSize": 87839,
+      "optimizedSize": 15564,
+      "savingsPercent": 82.3,
+      "originalDimensions": "500x500",
+      "resized": false
+    },
+    {
+      "original": "small_arms4.png",
+      "webp": "small_arms4.webp",
+      "originalSize": 120641,
+      "optimizedSize": 51086,
+      "savingsPercent": 57.7,
+      "originalDimensions": "892x476",
+      "resized": false
+    },
+    {
+      "original": "weapon-viper-full.png",
+      "webp": "weapon-viper-full.webp",
+      "originalSize": 65770,
+      "optimizedSize": 5984,
+      "savingsPercent": 90.9,
+      "originalDimensions": "255x308",
+      "resized": false
+    },
+    {
+      "original": "India-Map.png",
+      "webp": "India-Map.webp",
+      "originalSize": 101142,
+      "optimizedSize": 46008,
+      "savingsPercent": 54.5,
+      "originalDimensions": "902x1024",
+      "resized": false
+    },
+    {
+      "original": "ds-rifle2.png",
+      "webp": "ds-rifle2.webp",
+      "originalSize": 93385,
+      "optimizedSize": 46078,
+      "savingsPercent": 50.7,
+      "originalDimensions": "695x392",
+      "resized": false
+    },
+    {
+      "original": "weapon-dsr1-full.png",
+      "webp": "weapon-dsr1-full.webp",
+      "originalSize": 42844,
+      "optimizedSize": 4374,
+      "savingsPercent": 89.8,
+      "originalDimensions": "260x308",
+      "resized": false
+    },
+    {
+      "original": "dsr1-m1.png",
+      "webp": "dsr1-m1.webp",
+      "originalSize": 61685,
+      "optimizedSize": 27414,
+      "savingsPercent": 55.6,
+      "originalDimensions": "674x323",
+      "resized": false
+    },
+    {
+      "original": "weapon-viper-menu.png",
+      "webp": "weapon-viper-menu.webp",
+      "originalSize": 38101,
+      "optimizedSize": 4390,
+      "savingsPercent": 88.5,
+      "originalDimensions": "235x160",
+      "resized": false
+    },
+    {
+      "original": "weapon-dsr1.png",
+      "webp": "weapon-dsr1.webp",
+      "originalSize": 24607,
+      "optimizedSize": 2364,
+      "savingsPercent": 90.4,
+      "originalDimensions": "254x135",
+      "resized": false
+    },
+    {
+      "original": "small_arms2.png",
+      "webp": "small_arms2.webp",
+      "originalSize": 41937,
+      "optimizedSize": 20692,
+      "savingsPercent": 50.7,
+      "originalDimensions": "493x279",
+      "resized": false
+    },
+    {
+      "original": "small_arms3.png",
+      "webp": "small_arms3.webp",
+      "originalSize": 42203,
+      "optimizedSize": 21060,
+      "savingsPercent": 50.1,
+      "originalDimensions": "395x276",
+      "resized": false
+    },
+    {
+      "original": "dsr1-m2.png",
+      "webp": "dsr1-m2.webp",
+      "originalSize": 30139,
+      "optimizedSize": 12308,
+      "savingsPercent": 59.2,
+      "originalDimensions": "323x325",
+      "resized": false
+    },
+    {
+      "original": "followus.png",
+      "webp": "followus.webp",
+      "originalSize": 32081,
+      "optimizedSize": 15132,
+      "savingsPercent": 52.8,
+      "originalDimensions": "666x157",
+      "resized": false
+    },
+    {
+      "original": "dsr1-m4.png",
+      "webp": "dsr1-m4.webp",
+      "originalSize": 19698,
+      "optimizedSize": 5078,
+      "savingsPercent": 74.2,
+      "originalDimensions": "322x562",
+      "resized": false
+    },
+    {
+      "original": "DSR 1-10.png",
+      "webp": "DSR 1-10.webp",
+      "originalSize": 21777,
+      "optimizedSize": 10838,
+      "savingsPercent": 50.2,
+      "originalDimensions": "470x471",
+      "resized": false
+    },
+    {
+      "original": "VIPER-05.png",
+      "webp": "VIPER-05.webp",
+      "originalSize": 21777,
+      "optimizedSize": 10838,
+      "savingsPercent": 50.2,
+      "originalDimensions": "470x471",
+      "resized": false
+    },
+    {
+      "original": "weapon-dsr1-clean.png",
+      "webp": "weapon-dsr1-clean.webp",
+      "originalSize": 11071,
+      "optimizedSize": 2320,
+      "savingsPercent": 79,
+      "originalDimensions": "254x135",
+      "resized": false
+    },
+    {
+      "original": "DSR 1-08.png",
+      "webp": "DSR 1-08.webp",
+      "originalSize": 17238,
+      "optimizedSize": 8600,
+      "savingsPercent": 50.1,
+      "originalDimensions": "456x477",
+      "resized": false
+    },
+    {
+      "original": "VIPER-03.png",
+      "webp": "VIPER-03.webp",
+      "originalSize": 17238,
+      "optimizedSize": 8600,
+      "savingsPercent": 50.1,
+      "originalDimensions": "456x477",
+      "resized": false
+    },
+    {
+      "original": "DSR 1-09.png",
+      "webp": "DSR 1-09.webp",
+      "originalSize": 16068,
+      "optimizedSize": 7450,
+      "savingsPercent": 53.6,
+      "originalDimensions": "537x452",
+      "resized": false
+    },
+    {
+      "original": "VIPER-04.png",
+      "webp": "VIPER-04.webp",
+      "originalSize": 16068,
+      "optimizedSize": 7450,
+      "savingsPercent": 53.6,
+      "originalDimensions": "537x452",
+      "resized": false
+    },
+    {
+      "original": "ds-rifle.png",
+      "webp": "ds-rifle.webp",
+      "originalSize": 11155,
+      "optimizedSize": 4414,
+      "savingsPercent": 60.4,
+      "originalDimensions": "666x88",
+      "resized": false
+    },
+    {
+      "original": "weapon-card-bg.png",
+      "webp": "weapon-card-bg.webp",
+      "originalSize": 4634,
+      "optimizedSize": 392,
+      "savingsPercent": 91.5,
+      "originalDimensions": "100x100",
+      "resized": false
+    }
+  ]
+}

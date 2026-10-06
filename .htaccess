@@ -1,0 +1,124 @@
+# ----------------------------------------------------------------------
+# IMPERIAL ARMOURY - Apache & LiteSpeed Configuration (.htaccess)
+# ----------------------------------------------------------------------
+
+# Ensure index.html is served by default instead of default.php
+DirectoryIndex index.html index.php
+
+# Enable URL Rewriting
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # Ensure HTTPS (optional/recommended for live sites)
+    RewriteCond %{HTTPS} off
+    RewriteCond %{HTTP_HOST} ^imperialarmoury\.com [NC]
+    RewriteRule ^(.*)$ https://imperialarmoury.com/$1 [L,R=301]
+
+    # ------------------------------------------------------------------
+    # 301 Redirects: Strip .html extension from direct URL requests
+    # ------------------------------------------------------------------
+    # Redirect /index.html to /
+    RewriteCond %{THE_REQUEST} \s/index\.html[\s?] [NC]
+    RewriteRule ^index\.html$ / [R=301,L]
+
+    # Redirect specific legacy .html files to their canonical clean slugs
+    RewriteCond %{THE_REQUEST} \s/contact(-us)?\.html[\s?] [NC]
+    RewriteRule ^contact(-us)?\.html$ /contact-us/ [R=301,L]
+
+    RewriteCond %{THE_REQUEST} \s/about(-us)?\.html[\s?] [NC]
+    RewriteRule ^about(-us)?\.html$ /about-us/ [R=301,L]
+
+    RewriteCond %{THE_REQUEST} \s/about-imperial-armoury\.html[\s?] [NC]
+    RewriteRule ^about-imperial-armoury\.html$ /about-imperial-armoury/ [R=301,L]
+
+    RewriteCond %{THE_REQUEST} \s/ammunition\.html[\s?] [NC]
+    RewriteRule ^ammunition\.html$ /ammunition/ [R=301,L]
+
+    RewriteCond %{THE_REQUEST} \s/viper\.html[\s?] [NC]
+    RewriteRule ^viper\.html$ /viper/ [R=301,L]
+
+    RewriteCond %{THE_REQUEST} \s/dsr-1\.html[\s?] [NC]
+    RewriteRule ^dsr-1\.html$ /dsr-1/ [R=301,L]
+
+    # Generic redirect for any other .html request (except 404)
+    RewriteCond %{THE_REQUEST} \s/+(.+)\.html[\s?] [NC]
+    RewriteCond %{REQUEST_URI} !^/404\.html$
+    RewriteRule ^(.+)\.html$ /$1/ [R=301,L]
+
+    # ------------------------------------------------------------------
+    # Clean URL Slugs & Aliases (Internal Rewrites to directory index.html)
+    # ------------------------------------------------------------------
+
+    # Contact Page Aliases
+    RewriteRule ^contact-us/?$ contact-us/index.html [L,NC]
+    RewriteRule ^contact/?$ contact-us/index.html [L,NC]
+
+    # About Page Aliases (WHO WE ARE)
+    RewriteRule ^about-imperial-armoury/?$ about-imperial-armoury/index.html [L,NC]
+    RewriteRule ^about-us/?$ about-us/index.html [L,NC]
+    RewriteRule ^about/?$ about-us/index.html [L,NC]
+
+    # Ammunition Page Aliases
+    RewriteRule ^ammunition/?$ ammunition/index.html [L,NC]
+
+    # Weapon Slugs (VIPER & DSR-1)
+    RewriteRule ^weapon/viper-small-arm/?$ weapon/viper-small-arm/index.html [L,NC]
+    RewriteRule ^weapon/viper/?$ weapon/viper/index.html [L,NC]
+    RewriteRule ^weapon/modern-dsr-1/?$ weapon/modern-dsr-1/index.html [L,NC]
+    RewriteRule ^weapon/dsr-1/?$ weapon/dsr-1/index.html [L,NC]
+    RewriteRule ^weapon/?$ weapon/index.html [L,NC]
+    RewriteRule ^weapons/?$ weapons/index.html [L,NC]
+
+    # Direct model slugs
+    RewriteRule ^viper-small-arm/?$ viper/index.html [L,NC]
+    RewriteRule ^viper/?$ viper/index.html [L,NC]
+    RewriteRule ^modern-dsr-1/?$ dsr-1/index.html [L,NC]
+    RewriteRule ^dsr-1/?$ dsr-1/index.html [L,NC]
+
+    # ------------------------------------------------------------------
+    # Clean URLs fallback: map /page to /page.html if requested directly
+    # ------------------------------------------------------------------
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+    RewriteRule ^([^/]+)/?$ $1.html [L]
+
+</IfModule>
+
+# ----------------------------------------------------------------------
+# Custom 404 Error Page
+# ----------------------------------------------------------------------
+ErrorDocument 404 /404.html
+
+# ----------------------------------------------------------------------
+# MIME Types & Encoding
+# ----------------------------------------------------------------------
+<IfModule mod_mime.c>
+    AddType image/webp .webp
+    AddType image/svg+xml .svg .svgz
+    AddType application/manifest+json .webmanifest
+    AddType font/woff2 .woff2
+    AddType font/woff .woff
+</IfModule>
+
+# ----------------------------------------------------------------------
+# Performance: Browser Caching & Compression
+# ----------------------------------------------------------------------
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresDefault "access plus 1 month"
+    ExpiresByType text/html "access plus 0 seconds"
+    ExpiresByType text/css "access plus 1 year"
+    ExpiresByType application/javascript "access plus 1 year"
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType image/x-icon "access plus 1 year"
+    ExpiresByType font/woff2 "access plus 1 year"
+</IfModule>
+
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/javascript application/json application/xml image/svg+xml
+</IfModule>
