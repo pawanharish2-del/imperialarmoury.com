@@ -12,6 +12,7 @@
     --color-text: #FFFFFF;
     --color-text-muted: #D3D3D3;
     --color-border: rgba(211, 211, 211, 0.25);
+    --color-white: #FFFFFF;
 
     --font-heading: 'Wix Madefor Display', sans-serif;
     --font-body: 'Wix Madefor Display', sans-serif;
@@ -596,7 +597,8 @@ button {
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background-image: url('../assets/images/hero-bg.png');
+    background-color: var(--color-bg);
+    background-image: url('../assets/images/Home-01.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1571,7 +1573,6 @@ button {
     margin-left: -19rem;
     letter-spacing: 4px;
     color: #ffffff;
-    text-shadow: 0 4px 18px rgba(0, 0, 0, 0.75), 0 2px 4px rgba(0, 0, 0, 0.9);
     line-height: 1.2;
 }
 
@@ -2144,7 +2145,8 @@ button {
     aspect-ratio: 28 / 9;
     min-height: 45vh;
     /* Maintains mobile height */
-    background-image: url('../assets/images/mountains-bg.png');
+    background-color: #121212;
+    background-image: url('../assets/images/About-01.webp');
     /* Shifted image up so peaks are visible and black bottom is cut off */
     background-position: center 75%;
     background-size: cover;
@@ -2577,8 +2579,8 @@ button {
     justify-content: flex-start;
     align-items: flex-end;
     padding: 3rem 4rem;
-    background-image: url('../assets/images/1.webp');
-    /* Try 1.webp */
+    background-color: #121212;
+    background-image: url('../assets/images/Home-01.webp');
     background-size: cover;
     background-position: center;
 }

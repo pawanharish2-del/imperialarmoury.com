@@ -2,6 +2,8 @@
   "name": "imperial-armoury",
   "version": "1.0.0",
   "scripts": {
+    "start": "npx -y serve .",
+    "dev": "npx -y serve .",
     "build": "node scripts/setup-routes.js",
     "setup-routes": "node scripts/setup-routes.js",
     "generate-favicons": "node scripts/generate-favicons.js",

@@ -9,11 +9,11 @@
     <link rel="canonical" href="https://imperialarmoury.com/404.html">
 
     <!-- Favicon & Tab Icons -->
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
     <meta name="theme-color" content="#121212">
 
     <!-- Google Fonts -->
@@ -22,7 +22,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800;900&family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/style.css?v=2.4">
+    <link rel="stylesheet" href="css/style.css">
     <style>
         .error-page-wrapper {
             min-height: 80vh;
@@ -120,17 +120,21 @@
     <header class="main-header">
         <div class="header-container">
             <div class="logo">
-                <a href="/">
-                    <img src="/assets/images/headerlogo.webp" alt="IMPERIAL ARMOURY" class="header-logo-img" width="150" height="25">
+                <a href="index.html">
+                    <img src="assets/images/headerlogo.webp" alt="IMPERIAL ARMOURY" class="header-logo-img" width="150" height="25">
                 </a>
             </div>
             <nav class="desktop-nav">
                 <ul class="nav-links">
-                    <li class="nav-item"><a href="/">HOME</a></li>
-                    <li class="nav-item"><a href="/about-us/">ABOUT US</a></li>
-                    <li class="nav-item"><a href="/viper/">WEAPONS</a></li>
-                    <li class="nav-item"><a href="/ammunition/">AMMUNITION</a></li>
-                    <li class="nav-item"><a href="/contact-us/">CONTACT US</a></li>
+                    <li class="nav-item">
+                        <a href="index.html">HOME</a></li>
+                    <li class="nav-item">
+                        <a href="about.html">ABOUT US</a></li>
+                    <li class="nav-item"><a href="viper.html">WEAPONS</a></li>
+                    <li class="nav-item">
+                        <a href="ammunition.html">AMMUNITION</a></li>
+                    <li class="nav-item">
+                        <a href="contact.html">CONTACT US</a></li>
                 </ul>
             </nav>
         </div>
@@ -138,13 +142,13 @@
 
     <main class="error-page-wrapper">
         <div class="error-card">
-            <img src="/assets/images/apple-touch-icon.png" alt="Imperial Armoury Eagle" class="error-card-logo" width="120" height="120" style="border-radius: 50%; padding: 10px; background: #fff;">
+            <img src="assets/images/apple-touch-icon.png" alt="Imperial Armoury Eagle" class="error-card-logo" width="120" height="120" style="border-radius: 50%; padding: 10px; background: #fff;">
             <div class="error-code">404</div>
             <h1 class="error-title">Target Not Found</h1>
             <p class="error-desc">The page you are trying to reach might have been moved, renamed, or is temporarily unavailable.</p>
             <div class="error-buttons">
-                <a href="/" class="error-btn-primary">Back to Homepage</a>
-                <a href="/contact-us/" class="error-btn-outline">Contact Support</a>
+                <a href="./" class="error-btn-primary">Back to Homepage</a>
+                <a href="contact.html" class="error-btn-outline">Contact Support</a>
             </div>
         </div>
     </main>
