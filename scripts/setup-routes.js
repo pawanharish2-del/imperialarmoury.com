@@ -133,6 +133,16 @@ function normalizeHtmlForDepth(content, depth) {
   modified = modified.replace(/href="(?:\.\.\/|\/|\.\/)*(?:dsr-1\/?|dsr-1\.html)"/g, `href="${dsr1Link}"`);
   modified = modified.replace(/href="(?:\.\.\/|\/|\.\/)*404\.html"/g, `href="${notFoundLink}"`);
 
+  // Mega Menu Links (inside weapons mega menu: Modern Rifle -> DSR-1, Small Arms -> Viper)
+  modified = modified.replace(
+    /(<div class="weapons-nav-container">\s*)<a href="[^"]*"(\s+class="weapon-nav-column">)/g,
+    `$1<a href="${dsr1Link}"$2`
+  );
+  modified = modified.replace(
+    /(<\/a>\s*)<a href="[^"]*"(\s+class="weapon-nav-column">[\s\S]*?<img[^>]*alt="Small Arms")/g,
+    `$1<a href="${viperLink}"$2`
+  );
+
   return modified;
 }
 
