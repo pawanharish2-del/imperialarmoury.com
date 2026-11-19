@@ -2207,6 +2207,8 @@ button {
     margin-left: -8rem;
     color: #ffffff;
     letter-spacing: 0.3px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .about-details-text p1 {
@@ -2215,6 +2217,12 @@ button {
     margin-left: 0rem;
     color: #ffffff;
     letter-spacing: 0.3px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.about-details-text br {
+    display: none;
 }
 
 .highlight-grey {
